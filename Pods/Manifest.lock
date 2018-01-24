@@ -1,0 +1,35 @@
+PODS:
+  - Apollo (0.7.0):
+    - Apollo/Core (= 0.7.0)
+  - Apollo/Core (0.7.0)
+  - Apollo/SQLite (0.7.0):
+    - Apollo/Core
+    - SQLite.swift (~> 0.11.4)
+  - CryptoSwift (0.8.1)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+
+DEPENDENCIES:
+  - Apollo (~> 0.7.0)
+  - Apollo/SQLite (~> 0.7.0)
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+
+EXTERNAL SOURCES:
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+CHECKOUT OPTIONS:
+  CryptoSwift:
+    :commit: 34d35b078fb0200698cbeaf32bb576190b3756d0
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+SPEC CHECKSUMS:
+  Apollo: d6649ac06168660e70c6226c4eadfc0770791ba5
+  CryptoSwift: 1b32049a9cfcdc608ab58491fc7d76764ce6a3a1
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+
+PODFILE CHECKSUM: 0783d0f48e239f2628c0427449e9e39c1c9b6eff
+
+COCOAPODS: 1.2.0
